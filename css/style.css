@@ -11,3 +11,11 @@ h1 {
     margin-top: 0; 
     padding: 25px 0; 
 }
+
+.first {
+    background-color: #281B2D;
+    color: #FCD801;
+    font-size: 48px;
+    padding: 20px; 
+    border-bottom: 5px solid #00c54c;
+}
