@@ -13,6 +13,20 @@ h1 {
     padding: 25px 0;
 }
 
+a {
+    color: #281B2D
+}
+
+a:hover {
+    color: #fff; 
+}
+/* 
+.hero {
+    text-align: left;
+    padding: 14rem 0 25rem;
+    background-image: url("images/chameleon.jpg");
+    background-size: cover;
+} */
 
 /* solution with header styled */
 
@@ -34,6 +48,7 @@ h1 {
     font-size: 48px;
     padding: 20px;
     border-bottom: 5px solid #00C54C;
+    margin-top: 0; 
 }
 
 .white-text { color: #fff }
@@ -42,10 +57,12 @@ h1 {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
+    
 }
 
 .columns {
     display: flex;
+ 
 }
 
 .main-content {
@@ -55,4 +72,24 @@ h1 {
 
 .sidebar {
     width: 30%;
+    background: #9ae84f;
+    padding: 15px; 
+}
+
+.col-right {
+    margin-left: 25px;
+}
+
+.col-left {
+    margin: 30px;
+    padding: 40px;
+}
+
+.source {
+    font-size: 12px;
+}
+
+.chameleon {
+    width: 100%;
+    object-fit: cover;
 }
