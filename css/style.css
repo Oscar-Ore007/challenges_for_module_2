@@ -74,15 +74,18 @@ h1 {
     width: 30%;
     background: #9ae84f;
     padding: 15px; 
+    box-shadow: 10px 5px 5px blueviolet;
 }
 
 .col-right {
     margin-left: 25px;
+    box-shadow: 10px 5px 5px blueviolet;
 }
 
 .col-left {
     margin: 30px;
     padding: 40px;
+
 }
 
 .source {
